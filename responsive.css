@@ -1,0 +1,37 @@
+@media only screen and (max-width: 576px) {
+    .menu-area{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .hero-section{
+        background-image: none;
+        /* background-color: red; */
+        flex-direction: column-reverse;
+        padding: 27px;
+        min-height: 500px;
+        gap: 60px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .menu-area{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 980px) {
+    
+    .hero-section{
+        background-image: none;
+        /* background-color: red; */
+        flex-direction: column-reverse;
+        padding: 27px;
+        min-height: 500px;
+        gap: 60px;
+    }
+}

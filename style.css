@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header css start  */
+
+.header {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1272px;
+    padding: 16px 21px;
+    margin: 0 auto;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 18px;
+    color: #000;
+}
+
+.menu-area {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.menu-item {
+    color: #000;
+}
+
+.menu-active {
+    color: #D4D9E3;
+    border-radius: 8px;
+    background: #3A4256;
+    padding: 11px 13px;
+}
+
+.menu-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    display: none;
+}
+
+/* hero section css start here  */
+.hero-section {
+    max-width: 1363px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(./assets/landing-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 760px;
+    padding: 45px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    width: 100%;
+}
+
+.title {
+    color: #3A4256;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.description {
+    color: #3A4256;
+}
+
+.hero-btn {
+    border-radius: 8px;
+    background: linear-gradient(90deg, #19D3AE -22.5%, #0FCFEC 120.83%);
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14.5px;
+    margin-top: 20px;
+}
+.hero-img{
+    width: 100%;
+}
+.hero-img > img{
+    width: 100%;
+}
